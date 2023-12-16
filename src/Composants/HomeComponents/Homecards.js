@@ -20,14 +20,14 @@ const Homecards = () => {
      <ProductsCard img={card4} Title='Sweater' subtitle='ASDA Turtleneck Raglan Sleeve Split Hem Sweater' rating="3.8" price="240 MAD" promo="-50%"/>
     </Row>
     <h1 id='LatestProduct'>Men's winter Collection</h1>
-    <div className='d-flex flex-column flex-sm-row'> 
-  <img src={mensColl} style={{width:'300px' ,height:'480px'}} className='my-5 mr-5' />
-  <Row className='my-5 d-flex flex-column flex-md-row'> 
-    <ProductsCard img={men1} Title='Outerwear Jacket' subtitle='ASDA Manfinity Homme Men Solid Bu' rating="5" price="300 MAD" promo="-50%" />
-    <ProductsCard img={men2} Title='Outerwear Coat' subtitle='ASDA DAZY Solid Hooded Winter Thick Pockets Coat' rating="5" price="500 MAD" promo="-20%" />
-    <ProductsCard img={men3} Title='Outerwear Coat' subtitle='ASDA Men Zip Up Puffer Vest Coat' rating="4" price="300 MAD" promo="-10%" />
-  </Row>
-</div>
+      <div className='d-flex flex-column flex-sm-row'>
+        <img src={mensColl} style={{ width: '350px', height: '480px' }} className='my-5 mr-5' />
+        <Row className='my-1 d-flex flex-column flex-md-row justify-content-start align-items-center'>
+          <ProductsCard img={men1} Title='Outerwear Jacket' subtitle='ASDA Manfinity Homme Men Solid Bu' rating="5" price="300 MAD" promo="-50%" />
+          <ProductsCard img={men2} Title='Outerwear Coat' subtitle='ASDA DAZY Solid Hooded Winter Thick Pockets Coat' rating="5" price="500 MAD" promo="-20%" />
+          <ProductsCard img={men3} Title='Outerwear Coat' subtitle='ASDA Men Zip Up Puffer Vest Coat' rating="4" price="300 MAD" promo="-10%" />
+        </Row>
+      </div>
 
   </Container>
   )

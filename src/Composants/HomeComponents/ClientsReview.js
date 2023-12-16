@@ -10,14 +10,13 @@ const ClientsReview = () => {
   
   return (
      
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel activeIndex={index} onSelect={handleSelect} className='carouselR'>
       <Carousel.Item className='review h-75' interval={20000}>
       <div className="reviews">
             <h3>Client Reviews</h3>
             <img src={clt1} alt=""/>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br/>
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis <br/>
-                aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                aliqua. </p>
 
                 <h2>Mark Jevenue</h2>
                 <p>CEO of Addle</p>
@@ -28,8 +27,7 @@ const ClientsReview = () => {
             <h3>Client Reviews</h3>
             <img src={clt1} alt=""/>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br/>
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis <br/>
-                aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                aliqua.</p>
 
                 <h2>Mark Jevenue</h2>
                 <p>CEO of Addle</p>
@@ -40,8 +38,7 @@ const ClientsReview = () => {
             <h3>Client Reviews</h3>
             <img src={clt1} alt=""/>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br/>
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis <br/>
-                aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                aliqua. </p>
 
                 <h2>Mark Jevenue</h2>
                 <p>CEO of Addle</p>

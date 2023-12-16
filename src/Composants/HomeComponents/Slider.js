@@ -13,7 +13,7 @@ export default function Acceuil() {
   return (
     <div>
  
-  <Carousel activeIndex={index} onSelect={handleSelect}>
+  <Carousel activeIndex={index} onSelect={handleSelect} className='m-0 p-0'>
       <Carousel.Item id="promo1" interval={2000}>
         <div className='d-flex flex-row justify-content-center align-item-start'>
        
@@ -49,7 +49,7 @@ export default function Acceuil() {
         <div className="carousel-caption text-start">
              <h1 className='heading2 text-start'>Explore Your Style</h1>
             <p>UP TO 50% OFF</p>
-            <p><span className="btn btn-lg btn-light" href="#">Browse gallery</span></p>
+            <p><span className="btn btn-lg btn-light browse" href="#">Browse gallery</span></p>
           </div>
         </Carousel.Caption>
         </div>

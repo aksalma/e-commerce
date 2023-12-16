@@ -13,7 +13,7 @@ const CardCategory = ({ img, background, title ,category }) => {
   };
 
   return (
-    <Col xs="6" sm="6" md="4" lg="2" className='my-4 d-flex justify-content-center'>
+    <Col xs="6" sm="6" md="4" lg="2" className='my-4 d-flex justify-content-center mx-5'>
       <div className='allcards mb-3' >
         <Link to={category}>
         <div className='category-Card' style={cardStyle}>
