@@ -2,7 +2,6 @@ import React from 'react'
 import { Card ,Col} from 'react-bootstrap'
 import favicon from '../../Images/favicon.png'
 import rate from '../../Images/rateIcon.png'
-import ProductPage from './details/Prd1'
 import { Link } from 'react-router-dom'
 
 const ProductsCard = ({img,Title,subtitle,rating,price,promo}) => {
@@ -38,7 +37,7 @@ const ProductsCard = ({img,Title,subtitle,rating,price,promo}) => {
      </div>
       </Card.Text>
       <div className='text-start'>
-      <Link to={ProductPage} className='btn btn-light'>
+      <Link  className='btn btn-light'>
               Details
             </Link></div>
     </Card.Body>

@@ -1,9 +1,8 @@
 import React from 'react'
-import Slider from '../Slider';
-import HomeCategories from '../HomeCategories';
-import Homecards from '../Homecards';
-import ClientsReview from '../ClientsReview';
-import NexsLetter from '../Footer/NewsLetter';
+import Slider from '../HomeComponents/Slider';
+import HomeCategories from '../HomeComponents/HomeCategories';
+import Homecards from '../HomeComponents/Homecards';
+import ClientsReview from '../HomeComponents/ClientsReview';
 import Footer from '../Footer/Footer';
 const Home = () => {
   return (

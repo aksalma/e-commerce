@@ -1,14 +1,14 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
-import ProductsCard from './Products/ProductsCard'
-import card1 from '../Images/womenprd1.jpg'
-import card2 from '../Images/womenprd2.webp'
-import card3 from '../Images/womenprd3.jpg'
-import card4 from '../Images/womenprd4.jpg'
-import mensColl from '../Images/Mencoll.png'
-import men1 from '../Images/men1.jpg'
-import men2 from '../Images/men2.jpg'
-import men3 from '../Images/men3.jpg'
+import ProductsCard from '../HomeComponents/ProductsCard'
+import card1 from '../../Images/womenprd1.jpg'
+import card2 from '../../Images/womenprd2.webp'
+import card3 from '../../Images/womenprd3.jpg'
+import card4 from '../../Images/womenprd4.jpg'
+import mensColl from '../../Images/Mencoll.png'
+import men1 from '../../Images/men1.jpg'
+import men2 from '../../Images/men2.jpg'
+import men3 from '../../Images/men3.jpg'
 const Homecards = () => {
   return (
     <Container className='w-100'>

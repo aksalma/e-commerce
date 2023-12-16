@@ -1,6 +1,6 @@
 import React,{useState}from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import clt1 from '../Images/client1.jpg'
+import clt1 from '../../Images/client1.jpg'
 const ClientsReview = () => {
     const [index, setIndex] = useState(0);
 

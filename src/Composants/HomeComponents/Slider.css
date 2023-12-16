@@ -23,7 +23,7 @@ body {
 
   
   #promo1{
-    background-image: url('../Images/promo1.png');  
+    background-image: url('../../Images/promo1.png');  
     margin:0px;
     background-size:auto ;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ body {
     background-position: center top;
 }
 #promo2{
-  background-image: url('../Images/promo2.png');  
+  background-image: url('../../Images/promo2.png');  
   margin:0px;
   background-size: cover;
   background-repeat: round;
@@ -45,7 +45,7 @@ body {
   width: 100%;
 }
 #promo3 {
-  background-image: url('../Images/promo11.png');  
+  background-image: url('../../Images/promo11.png');  
   margin: 0px;
   background-size:auto ;
   background-repeat: no-repeat;

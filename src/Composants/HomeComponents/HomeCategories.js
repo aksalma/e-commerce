@@ -1,9 +1,9 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
-import cat1 from '../Images/category1.png'
-import cat2 from '../Images/Category2.png'
-import cat3 from '../Images/Category3.png'
-import CardCategory from './Category/CardCategory'
+import cat1 from '../../Images/category1.png'
+import cat2 from '../../Images/Category2.png'
+import cat3 from '../../Images/Category3.png'
+import CardCategory from '../Category/CardCategory'
 export default function HomeCategories() {
   return (
   
