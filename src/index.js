@@ -9,11 +9,10 @@ const root = document.getElementById('root');
 
 ReactDOM.createRoot(root).render(
   <React.StrictMode>
-    <Router basename="e-commerce">
+    <Router basename="/e-commerce">
       <App />
     </Router>
   </React.StrictMode>
 );
-
 
 reportWebVitals();
